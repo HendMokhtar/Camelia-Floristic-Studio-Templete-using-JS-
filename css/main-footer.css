@@ -1,0 +1,188 @@
+footer{
+	font-family: 'Roboto Slab', serif;
+    width: 1300px;
+    margin-left: -14px;
+}
+.footer-content{
+	background-color: #fff;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+}
+
+.open-hours span{
+	margin-top: 5px;
+	display: block;
+}
+.links li{
+    list-style: none;
+    margin-top: 9px;
+    font-weight: 700;
+    padding-left: 60px;
+}
+
+.links a{
+    color: #1b1726;
+	letter-spacing: .25px;
+}
+.links a:hover{
+	color: #f6b6cc;
+	text-decoration: none; 
+}
+ .head-p{
+    font-size: 1.222em;
+    font-weight: 600;
+    letter-spacing: .2px;
+    color: #1b1726;
+}
+.details{
+    line-height: 1.78em;   
+    color: #66646e;
+    margin-top: -5px;
+}
+.contacts-part span{
+	display: block;
+}
+.contacts-part .email{
+    margin-top: -10px;
+    text-align: center;
+}
+.contacts-part .phone{
+    margin-top: 8px;
+    text-align: center;
+}
+.contacts-part span a,.contacts-part span{
+	color: #66646e;
+	text-decoration: none;
+}
+.contacts-part span a:hover{
+    color: #8d7acb;
+    text-decoration: none;
+}
+.newsletter{
+    padding-top: 50px;
+}
+.newsletter-span{
+    font-size: 1.222em;
+    font-weight: 700;
+    letter-spacing: .2px;
+    color: #1b1726;
+    margin-bottom: .55em;
+    text-align: center;
+}
+.newsletter-form{
+	font-family: 'Merriweather', serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 70px;
+}
+.newsletter #subscriber-email{
+    width: 485px;
+    padding: 26px;
+    padding-bottom: 26px;
+    padding-left: 25px;
+    color: #878491;
+    border-color: transparent;
+    background-color: #87849124;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    outline: transparent;
+}
+.newsletter #subscriber-email:hover{
+	outline: transparent;
+}
+.newsletter #subscribe{
+    margin-left: -95px;
+    padding-top: 22px;
+    padding-bottom: 20px;
+    width: 150px;
+    border: transparent;
+    background-color: #c2cd4a;
+    color: #fff;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 600;
+    letter-spacing: 2.3px;
+    border-radius: 30px;
+}
+.newsletter #subscribe:hover{
+    background-color: #8d7acb;
+    outline:transparent;
+}
+#subscribe:disabled,#subscribe:disabled:hover{
+  border: transparent;
+  background-color: #878491;
+  color: #666666;
+}
+.newsletter .checkdiv{
+    margin-top: .75em;
+    color: #66646e;
+} 
+.social-icons{
+    width: 200px;
+    margin: 0 auto;
+    margin-top: -40px;
+    padding-bottom: 85px;
+}
+.face-icon,.twit-icon,.pint-icon,.inst-icon {
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 5px;
+    margin-right: 8px;
+
+}
+.face-icon{
+	background-color: #3b5998;
+}
+.twit-icon{
+	background-color: #55acee;
+}
+.pint-icon{	
+    background-color: #ca1f26;
+}
+.inst-icon {
+    background-color: #69443a;
+}
+
+.face-icon i,.twit-icon i, .pint-icon i,.inst-icon i{
+    color: #fff;
+    font-size: 20px;
+    padding: 5px;
+}
+.face-icon:hover,.twit-icon:hover, .pint-icon:hover, .inst-icon:hover{
+    background-color: #f6b6cc;
+}
+.copyright-div{
+    margin-top: 30px;
+    padding-bottom: 30px;
+}    
+.copyright-div span{
+    color: #66646e;
+    font-size: 16px;
+    width: 950px;
+    margin-left: 50px;
+    font-weight: 400;
+}
+.copyright-div span a{
+	color: #66646e;
+}
+.copyright-div span a:hover{
+	text-decoration: none;
+    color: #f6b6cc;
+}
+#scrollup{
+    position: fixed;
+    bottom: 2em;
+    right: 3.333em;
+    color: #fff;
+    background-color: #8d7acb;
+    line-height: 3em;
+    z-index: 100001;
+    width: 3em;
+    text-align: center;
+    font-size: 20px;
+    display: none;
+}

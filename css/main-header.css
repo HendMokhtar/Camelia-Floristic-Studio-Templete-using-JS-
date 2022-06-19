@@ -1,0 +1,82 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+    background-color: #f7f3f1;
+    overflow-x: hidden;
+}
+
+.container{
+	max-width: 1300px;
+}
+header a{
+    text-align: center;
+    transition: unset;
+}
+.header-nav{
+    width: 1102px;
+}
+
+.navbar-nav{
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    letter-spacing: -0.1px;
+    color: #1b17269e;
+    text-transform: uppercase; 
+}
+.dropdown-item:hover{
+    color: #fee4ed;
+    background: transparent;
+}
+.dropdown-menu{
+    background-color: #8d7acb;
+    letter-spacing: 0.5px;
+    width: 230px;
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.2);
+    margin-left: -63px;
+    text-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px
+
+}
+.dropdown-item{
+	color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.header-icons{
+    margin-top: -99px;
+    margin-right: 25px;
+    display: -webkit-inline-box;
+    margin-bottom: 60px;
+}
+.header-icons i{
+    color: #8d7acb;
+    font-size: 1.25em;
+    outline: transparent;
+}
+
+.header-icons i:hover{
+    color: #1b1726b5;
+}
+.header-icons .fa-user:hover{
+    color: #f6b6cc;
+}
+.logo-div img{
+    width: 300px;
+    margin-top: -20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: transparent;
+}
+/*for responsive*/
+.blog-li{
+    margin-left: 25px;
+}
+.logo-rwd,.social-icons-header,.contanct-li-rwd{
+    display: none!important;
+}

@@ -1,0 +1,186 @@
+.heartabout {
+    margin-top: 75px;
+}
+.heartabout i,.heartabout span{
+    color: #8d7acb;   
+}
+.heartabout span{
+    padding-top: 10px;
+}
+
+.left-img img{
+    width: 363px;
+    height: 500px;
+}
+
+.floristic-syudio .welcome{
+  padding-top: 50px;
+
+}
+.floristic-syudio .welcome h3{	
+    font-size: 2em;
+    color: #1b1726;
+    line-height: 1.2em;
+    font-family: 'Merriweather', serif;
+}
+.floristic-syudio .welcome img{
+	padding-top: 20px;
+    padding-bottom: 30px;
+}
+.floristic-syudio .welcome .wel-btn{
+	font-size: 11px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    color: #fff;
+    background-color: #8d7acb;
+    padding: 1.965em 4.8em 1.765em;
+    border-radius: 30px;
+    width: 275px;
+    margin-top: 55px;
+}
+.floristic-syudio .welcome .wel-btn:hover{
+	text-decoration: none;
+    background-color: #f6b6cc;
+}
+.autocount-div .programs,.clients,.celebrate,.collections{
+	background-color: #fff;
+    padding: 2.15em 0 2.45em;
+}
+.autocount-div i{
+    font-size: 3.3em;
+    line-height: 1.15em;
+    color: #8d7acb;
+    display: block;
+    text-align: center;
+}
+.autocount-div img{
+	padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.autocount-div .count{
+    font-weight: 400;
+    font-size: 2.889em;
+    line-height: 1em;
+    margin: 0;
+    margin-top: .27em;
+    letter-spacing: .5px;
+    color: #1b1726;
+    font-family: 'Roboto Slab', serif;
+    display: block;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.autocount-div p{
+    font-size: 1em;
+    line-height: 1.25em;
+    text-transform: none;
+    letter-spacing: .3px;
+    color: #1b1726;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+.certificate-div,.happy-clients{
+    padding-top: 85px;
+    padding-bottom: 70px;
+
+}
+
+.certificate-slider .owl-carousel .owl-item img {
+    width: -webkit-fill-available!important;
+}
+.certificate-slider .owl-theme .owl-dots{
+    display: none!important;
+}
+.certificate-div .pre-slider i,.happy-clients .pre-clientslider i{
+    font-size: 3.3em;
+    line-height: 1;
+    margin-bottom: 25px;
+}
+.certificate-div .pre-slider i,.certificate-div .pre-slider p{
+	color: #f6b6cc;
+}
+.happy-clients .pre-clientslider i,.happy-clients .pre-clientslider p{
+    color: #8d7acb;
+}
+.certificate-div .pre-slider h4,.happy-clients .pre-clientslider h5{
+    line-height: 1.2em;
+    font-size: 2.889em;
+    color: #1b1726;
+    font-family: 'Merriweather', serif;
+
+
+}
+.certificate-div .pre-slider p,.happy-clients .pre-clientslider p{
+    font-family: parisienne,cursive;
+    font-size: 1.667em;
+    letter-spacing: 0;
+    line-height: 1.5em;
+
+}
+.certificate-div .certificate-slider{
+    margin-top: 30px;
+}
+.certificate-slider .owl-carousel .owl-nav.disabled {
+    display: block;
+    margin-top: 50px;
+}
+.certificate-slider .owl-nav.disabled  button.owl-next,.certificate-slider .owl-carousel .owl-nav.disabled  button.owl-prev{
+    color: #878491;
+    background-color: #f7f3f1;
+    border-color: #f7f3f1;
+    width: 3.112em;
+	font-size: 18px;
+    border-radius: 35px;
+    line-height: 3.112em;
+    outline: transparent;
+}
+.certificate-slider .owl-nav.disabled button.owl-next:hover, .certificate-slider .owl-nav.disabled  button.owl-prev:hover{
+    color: #fff;
+    background-color: #f6b6cc;
+    border-color: #f6b6cc;
+}
+.testi-slider p,.testi-slider i,.testi-slider span{
+	text-align: center;
+	display: block;
+}
+.testi-slider p{
+    font-size: 1.111em;
+    font-style: italic;
+    line-height: 1.35em;
+    color: #878491;
+    width: 655px;
+    position: relative;
+    left: 290px;
+    cursor: grab;
+
+}
+.testi-slider i{
+    color: #c2cd4a;
+    font-size: 1.5em;
+    padding-top: 7px;
+}
+.testi-slider span{
+    font-size: 1em;
+    font-style: italic;
+    letter-spacing: .1px;
+    font-family: 'Merriweather', serif;
+    color: #1b1726;
+    padding-top: 5px;
+
+}
+.testi-slider .owl-nav.disabled+.owl-dots {
+    margin-top: 45px;
+}
+.testi-slider .owl-theme .owl-dots .owl-dot{
+	zoom :1.5;
+	outline: transparent;
+}
+.testi-slider .owl-theme .owl-dots .owl-dot.active{
+	zoom:3;
+}

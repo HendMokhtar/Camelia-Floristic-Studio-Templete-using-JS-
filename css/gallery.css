@@ -1,0 +1,61 @@
+.js .photostack figure {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.photostack figcaption h2{
+    color: #1b1726;
+    font-size: 14px;
+    overflow: hidden;
+    display: block;
+    height: 15px;
+    font-family: 'Merriweather', serif;
+    margin-top: 67px;
+    margin-left: 30px;
+}
+.photostack figcaption a:hover{
+    text-decoration: none;
+}
+.photostack figcaption a:hover h2{
+    color: #8d7acb;
+}
+.photostack-back p {
+    font-size: 17px;
+    margin-top: -25px;
+    line-height: 30px;
+    font-family: 'Merriweather', serif;
+    margin-left: -15px;
+    width: 285px;
+}
+.photostack nav span.flippable {
+    background: #fff;
+}
+.photostack nav span.flippable:after {
+    color: #8d7acb;
+  }
+.photostack nav span.current.flip:after {
+    color: #fff;
+  }
+.photostack nav span.current.flip {
+    background: #8d7acb;
+}
+.photostack nav span{
+  background-color: #fff;
+}
+.lb-data .lb-caption {
+    font-family: 'Merriweather', serif;
+    line-height: 2em;
+}
+.photostack-img img{
+    width: 255px;
+    margin-left: 18px;
+    margin-top: 5px;
+    height: 280px;
+    -webkit-transition: all 0.5s ease-in-out;
+   -moz-transition: all 0.5s ease-in-out;
+   -o-transition: all 0.5s ease-in-out;
+   -ms-transition: all 0.5s ease-in-out;
+   transition: all 0.5s ease-in-out;
+}
+.photostack-img img:hover{
+   transform: scale(1.1);
+}
